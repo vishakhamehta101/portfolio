@@ -3,6 +3,42 @@
     line-height: normal;
 }
 
+#container1{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container2{
+    display: flex;
+    flex-direction: row;
+}
+
+#container3{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* outer image */
+#image{
+    height: 250px;
+    width: 200px;
+    background-color: #BDE0FE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* inner image */
+#myimage{
+    height: 200px;
+    border-color: #BDE0FE;
+    border-radius: 10px;
+}
 
 /* home page: */
 body{
@@ -10,29 +46,25 @@ body{
     color: black;
 }
 
-img{
-    background-color: #BDE0FE;
-}
-
 #heading{
     display: inline-block;
     height: 100px;
     width: 300px;
-    background-color: #BDE0FE;
+    /* background-color: #BDE0FE; */
     text-align: left;
 }
 
 #aboutme{
     display: inline-block;
     height: 450px;
-    width: 700px;
-    background-color: #BDE0FE;
+    width: 650px;
+    /* background-color: #BDE0FE; */
 }
 
 #link1{
     height: 200px;
     width: 300px;
-    background-color: #BDE0FE;
+    /* background-color: #BDE0FE; */
     text-decoration: none;
     display: inline;
 }
@@ -40,7 +72,7 @@ img{
 #link2{
     height: 200px;
     width: 300px;
-    background-color: #BDE0FE;
+    /* background-color: #BDE0FE; */
     text-decoration: none;
     display: inline;
 }
@@ -48,8 +80,13 @@ img{
 #contactme{
     height: 150px;
     width: 700px;
-    background-color: #BDE0FE;
+    /* background-color: #BDE0FE; */
 }
+
+
+
+
+
 
 
 /* academic details: */
@@ -78,4 +115,16 @@ table tbody tr td{
     color: black;
     font-size: 16px;
     text-align: center;
+}
+
+/* certifications: */
+
+.certificate1{
+    background-color: #BDE0FE;
+    /* text-decoration: none; */
+}
+
+.certificate2{
+    background-color: #BDE0FE;
+    /* text-decoration: none; */
 }
